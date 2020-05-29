@@ -44,9 +44,9 @@ while rejouer:
 
     parite = lambda numero_tire:numero_tire % 2 == 0
     if parite(numero_tire):
-        print("Le numéro gagnant est le", numero_tire, "noir")
+        print("Le numéro gagnant est le:", numero_tire, "noir")
     else:
-        print("Le numéro gagnant est le", numero_tire, "rouge")
+        print("Le numéro gagnant est le:", numero_tire, "rouge")
     if mise_numero == numero_tire:
         gain = 3 * mise_montant
     elif parite(mise_numero - numero_tire):
